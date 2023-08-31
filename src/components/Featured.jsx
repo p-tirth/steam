@@ -28,7 +28,9 @@ export default function Featured() {
           ))}
         </div>
       </div>
-
+      <div className='hidden md:block md:mt-10'>
+        <img src='https://cdn.akamai.steamstatic.com/steam/clusters/takeunder/c57b1f959eb86fd889f655ed/takeunder_desktop_english.jpg?t=1693434649' alt="" />
+      </div>
     </div>
   )
 }

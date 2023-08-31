@@ -12,7 +12,7 @@ export default function Offer() {
           id='slider'
           className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'>
           {data.map((item) => (
-            <div key={item.id} className='w-[90%] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300
+            <div key={item.id} className='max-w-[80%] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300
               md:w-[40%]'>
               <img
                 className='aspect-square'
