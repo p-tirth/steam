@@ -5,7 +5,7 @@ import FeatureScroll from './FeatureScroll'
 export default function Featured() {
 
   return (
-    <div className='py-4 bg-red-300 md:max-w-2xl'>
+    <div className='py-4  md:max-w-2xl'>
       <h1 className='px-1 text-slate-100'>FEATURED & RECOMMENDED</h1>
       <div className='flex items-center'>
         {/* slider code */}
