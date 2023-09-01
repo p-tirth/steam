@@ -40,7 +40,7 @@ function App() {
                             style={{ backgroundImage: `url(${data[currentIndex].img})` }}
                             className='w-[100%] h-[18rem] bg-center bg-cover duration-500'
                         ></div>
-                        <div className='w-full bg-red-700'>
+                        <div className='w-full p-2 bg-gradient-to-r from-blue-300 to-dark-blue-700'>
                             <Discount />
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function App() {
                             style={{ backgroundImage: `url(${data[(currentIndex + 1)%12].img})` }}
                             className='w-[100%] h-[18rem] bg-center bg-cover duration-500'
                         ></div>
-                        <div className='w-full bg-red-700'>
+                        <div className='w-full p-2 bg-gradient-to-r from-blue-300 to-dark-blue-700 '>
                             <Discount />
                         </div>
                     </div>
@@ -59,7 +59,7 @@ function App() {
                                 style={{ backgroundImage: `url(${data[(currentIndex + 2)%12].img})` }}
                                 className='w-[100%] h-[7rem] bg-center bg-cover duration-500'
                             ></div>
-                            <div className='w-full bg-red-700'>
+                            <div className='w-full p-2 bg-gradient-to-r from-blue-300 to-dark-blue-700 '>
                                 <Discount />
                             </div>
                         </div>
@@ -68,7 +68,7 @@ function App() {
                                 style={{ backgroundImage: `url(${data[(currentIndex + 3)%12].img})` }}
                                 className='w-[100%] h-[7rem] bg-center bg-cover duration-500'
                             ></div>
-                            <div className='w-full bg-red-700'>
+                            <div className='w-full p-2 bg-gradient-to-r from-blue-300 to-dark-blue-700 '>
                                 <Discount />
                             </div>
                         </div>

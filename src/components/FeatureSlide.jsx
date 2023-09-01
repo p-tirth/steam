@@ -34,10 +34,10 @@ function App() {
 
                 <div
                     style={{ backgroundImage: `url(${data[currentIndex].img})` }}
-                    className='w-full h-full bg-center bg-cover duration-500'
+                    className='w-[70%] h-full bg-center bg-cover duration-500'
                 ></div>
-                <div className='h-full w-md'>
-                    <h1 className='text-slate-200'>{data[currentIndex].game}</h1>
+                <div className='h-full w-md p-2'>
+                    <h1 className='text-slate-200 text-2xl'>{data[currentIndex].game}</h1>
                     <div className='flex justify-center items-center'>
                         <div className='p-1'>
                             <img src={data[currentIndex].img} alt="" className='p-1 w-[6rem] aspect-video' />

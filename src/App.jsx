@@ -8,6 +8,7 @@ import SideNav from './components/SideNav'
 import FeatureSlide from './components/FeatureSlide'
 import OfferSlide from './components/OfferSlide'
 import CategorySlide from './components/CategorySlide'
+import Browse from './components/Browse'
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <OfferSlide />
           <Category />
           <CategorySlide/>
+          <Browse/>
         </div>
       </div>
     </div>

@@ -25,7 +25,7 @@ function App() {
     };
 
     return (
-        <div className='hidden md:block md:w-full md:max-w-full'>
+        <div className='hidden md:block md:w-full md:max-w-full md:overflow-hidden'>
             <h1 className='px-1 text-slate-100'>BROWSE BY CATEGORY</h1>
             <div className=' flex justify-center items-center h-[12em] w-full relative group'>
                 {/* Left Arrow */}
