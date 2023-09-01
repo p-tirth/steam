@@ -3,7 +3,7 @@ import { data } from '../assets/mockData'
 
 export default function Offer() {
   return (
-    <div className='py-4 md:max-w-2xl'>
+    <div className='py-4 md:max-w-2xl md:hidden'>
       <h1 className='px-1 text-slate-100'>BROWSE BY CATEGORY</h1>
       <div className=''>
         {/* slider code */}

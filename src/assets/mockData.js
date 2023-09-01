@@ -18,7 +18,7 @@ export const data = [
       img: 'https://images.unsplash.com/photo-1566024287286-457247b70310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60',
       game: "Game3",
       price: "$30",
-      category:"FIRST PERSON SHOOTER"
+      category:"SHOOTER"
     },
     {
       id: 4,

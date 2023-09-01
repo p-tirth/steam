@@ -14,7 +14,7 @@ export default function FeatureScroll({ data }) {
                         src={item.img}
                         alt='/'
                     />
-                    <div className='w-full bg-slate-500'>
+                    <div className='w-full '>
                         <h1 className='p-1 text-slate-200 text-xl font-bold'>{item.game}</h1>
                         <h1 className='p-1 text-slate-200 '>{item.price}</h1>
                     </div>
